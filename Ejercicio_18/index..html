@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+   <title>Ejercicio 18</title>
+   <meta charset="utf-8">
+ </head> 
+ <body>
+     <h1>Eventos, interactividad de la página web</h1>
+     <p>Haz que cuando se haga click sobre el botón "Guardar", salté un alert con un mensaje de guardado.</p>
+     <button onclick="guardardatos()">Guardar</button>
+     <br>
+     <br>
+     <p>Cuando pulsemos sobre este input se pondrá de color azul y cuando se lo quitemos cambiará a color negro</p>
+     <label for="firstName">Nombre</label>
+     <input for="firstName" type="text" class="nombre" onfocus="cambiocolorblue()" onfocusout="cambiocolorblack()"/>
+     <br>
+     <br>
+     <p>Dependiendo si escribamos una vocal o una consonante el contenido del texto aparecerá de distinto color</p>
+     <label for="randomLetter">Escribe una letra</label>
+     <input for="randomLetter" type="text" class="cifrasyletras" onkeypress="vocalconsonante(event)"/>
+     <script src="index.js"></script>
+ </body>
+</html>
