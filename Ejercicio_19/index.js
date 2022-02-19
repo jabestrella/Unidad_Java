@@ -34,13 +34,5 @@ function cambiocolorwhite2() {
 // Botones en los idiomas, alert de cada idioma.
 
 function idiomaingles() {
-    alert('Nivel Alto. Título Superior de la Escuela Oficial de Idiomas');
-  };
-
-function idiomafrances() {
-    alert('Nivel Medio. Cursando Tercer Curso en la Escuela Oficial de Idiomas');
-  };
-
-function idiomaaleman() {
-    alert('Nivel bajo. Cursando primer Curso en la Escuela Oficial de Idiomas');
+    alert('Nivel Alto. Instituto Cultural Peruano Norteamericano');
   };
